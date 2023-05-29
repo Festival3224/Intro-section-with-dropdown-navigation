@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+
+        <a href="#" class="toggle-button">
+            <img id="toggle" src="images/icon-menu.svg" alt="#">
+        </a>
+
+        <div class="menu">
+            <div class="menu-left">
+                <div class="dropdown" data-dropdown>
+                    <button class="link" data-dropdown-button>
+                        Features
+                        <img src="images/icon-arrow-down.svg" alt="#" class="arrow">
+                    </button>
+                    <div class="dropdown-menu features-links">
+                        <a href="#" class="link">
+                            <img src="images/icon-todo.svg" alt="#">
+                            <span>Todo List</span> 
+                        </a>
+                        <a href="#" class="link">
+                            <img src="images/icon-calendar.svg" alt="#">
+                            <span>Calendar</span>
+                        </a>
+                        <a href="#" class="link">
+                            <img src="images/icon-reminders.svg" alt="#">
+                            <span>Remainder</span> 
+                        </a>
+                        <a href="#" class="link">
+                            <img src="images/icon-planning.svg" alt="#">
+                            <span>Planning</span> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown" data-dropdown>
+                    <button class="link" data-dropdown-button>
+                        Company
+                        <img src="images/icon-arrow-down.svg" alt="#" class="arrow">
+                    </button>
+                    <div class="dropdown-menu company-links">
+                        <a href="#" class="link">History</a>
+                        <a href="#" class="link">Our Team</a>
+                        <a href="#" class="link">Blog</a>
+                    </div>
+                </div>
+                
+                <a href="#" class="link">Careers</a>
+                <a href="#" class="link">About</a>
+            </div>
+            <div class="menu-right">
+                <a href="#" class="link">Login</a>
+                <a href="#" class="myBtn">Register</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <ul class="images">
+          <li>
+            <h1>Make remote work</h1>
+            <p> Get your team in sync, no matter your location. Streamline processes,
+              create team rituals, and watch productivity soar.</p>
+            <button class="more-btn">Learn more</button>
+            <ul class="clients">
+              <li><img src="images/client-databiz.svg" alt="#databiz"></li>
+              <li><img src="images/client-audiophile.svg" alt="audiophile"></li>
+              <li><img src="images/client-meet.svg" alt="meet"></li>
+              <li><img src="images/client-maker.svg" alt="maker"></li>
+            </ul>
+          </li>
+          <li>
+            <picture>
+                <source media="(min-width:640px)" srcset="images/image-hero-desktop.png">
+                <img src="images/image-hero-mobile.png" alt="Hero">
+            </picture>
+            
+          </li>
+        </ul>
+      </main>
+
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">EK Web Art</a>.
+      </div>
+    
+    <script src="./scripts/script.js"></script>
+
+</body>
+</html>
